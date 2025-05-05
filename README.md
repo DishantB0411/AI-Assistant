@@ -128,6 +128,7 @@ This version includes:
 ├── enhanced_app.py       # Full-featured version with stats
 ├── requirements.txt
 ├── screenshot.png        # UI screenshot (for README)
+├── flow.png              # Flow screenshot (for README)
 ├── tmp/                  # Temporary vector store (created at runtime)
 └── arxiv_papers/         # Downloaded PDFs (created at runtime)
 ```
