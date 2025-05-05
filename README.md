@@ -45,7 +45,7 @@ The process flow of this system is as follows:
 ### 1. Clone the repository
 
 ```bash
-[git clone https://github.com/your-username/arxiv-research-assistant.git](https://github.com/DishantB0411/AI-Assistant.git)
+https://github.com/DishantB0411/AI-Assistant.git
 cd arxiv-research-assistant
 ````
 
