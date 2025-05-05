@@ -11,6 +11,25 @@ An intelligent local research assistant built with Gradio, LangChain, Qdrant, an
 
 ---
 
+## 🔄 System Flow
+
+The process flow of this system is as follows:
+
+1. **Search Research Articles on arXiv**  
+   - Search arXiv for relevant papers based on the user’s query.
+2. **Convert to Embeddings (LangChain)**  
+   - Convert the content of the papers to embeddings using the LangChain library.
+3. **Save Embeddings to Qdrant**  
+   - Store the generated embeddings in a Qdrant vector store for efficient retrieval.
+4. **Ask a Question (Ollama)**  
+   - Ask a question based on the stored content, and get answers using the Ollama model.
+
+> Here's the visual flow of the system:
+
+![Flow Diagram](flow.png)
+
+---
+
 ## ✨ Features
 
 - 🔍 **arXiv Search**: Automatically search and download recent research papers based on a topic.
